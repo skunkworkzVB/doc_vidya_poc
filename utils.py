@@ -5,7 +5,7 @@ from datetime import datetime
 from streamlit.logger import get_logger
 from langchain_openai import ChatOpenAI
 from langchain_community.chat_models import ChatOllama
-from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
+from langchain.embeddings import OpenAIEmbeddings
 
 logger = get_logger("Langchain-Chatbot")
 
@@ -112,7 +112,9 @@ def print_qa(cls, question, answer):
 
 @st.cache_resource
 def configure_embedding_model():
-    embedding_model = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+    embedding_model = OpenAIEmbeddings(
+        openai_api_key="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"
+    )
     return embedding_model
 
 
