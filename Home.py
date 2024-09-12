@@ -19,7 +19,8 @@ from langchain.vectorstores import FAISS
 import faiss
 
 st.set_page_config(page_title="Chat with Awake Ventures", page_icon="🔗")
-st.header("Awake Ventures")
+st.header("iRealization")
+st.subheader("Creator, Entrepreneur, Investor, Awake.")
 
 
 class ChatbotWeb:
@@ -61,7 +62,7 @@ class ChatbotWeb:
         # Define retriever
         retriever = vectordb.as_retriever(
             search_type="mmr",
-            search_kwargs={"k": 4, "fetch_k": 4},
+            search_kwargs={"k": 3, "fetch_k": 7},
         )
 
         # Setup memory for contextual conversation

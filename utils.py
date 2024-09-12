@@ -30,7 +30,7 @@ def enable_chat_history(func):
         st.session_state["messages"] = [
             {
                 "role": "assistant",
-                "content": "Welcome to Awake Ventures, how can I help you?",
+                "content": "Hey iRealization (Amit) here, whats up?",
             }
         ]
     for msg in st.session_state["messages"]:
