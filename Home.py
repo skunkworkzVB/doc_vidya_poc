@@ -12,15 +12,24 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_core.documents.base import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import DocArrayInMemorySearch
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 
-from langchain.vectorstores import FAISS
+from langchain.prompts import (
+    SystemMessagePromptTemplate,
+    ChatPromptTemplate,
+    HumanMessagePromptTemplate,
+)
+from utils import context_prompt
+
+from langchain_community.vectorstores import FAISS
 
 import faiss
 
-st.set_page_config(page_title="Chat with Awake Ventures", page_icon="🔗")
+st.set_page_config(
+    page_title="Chat with Awake Ventures", page_icon="./assets/awake-ventures.jpg"
+)
 st.header("iRealization")
-st.subheader("Creator, Entrepreneur, Investor, Awake.")
+st.text("Creator, Entrepreneur, Investor, Awake.")
 
 
 class ChatbotWeb:
@@ -62,13 +71,20 @@ class ChatbotWeb:
         # Define retriever
         retriever = vectordb.as_retriever(
             search_type="mmr",
-            search_kwargs={"k": 3, "fetch_k": 7},
+            search_kwargs={"k": 3, "fetch_k": 10},
         )
 
         # Setup memory for contextual conversation
         memory = ConversationBufferMemory(
             memory_key="chat_history", output_key="answer", return_messages=True
         )
+
+        # Added context
+        messages = [
+            SystemMessagePromptTemplate.from_template(context_prompt + " {context}"),
+            HumanMessagePromptTemplate.from_template("{question}"),
+        ]
+        prompt = ChatPromptTemplate.from_messages(messages=messages)
 
         # Setup QA chain
         qa_chain = ConversationalRetrievalChain.from_llm(
@@ -77,6 +93,7 @@ class ChatbotWeb:
             memory=memory,
             return_source_documents=True,
             verbose=False,
+            combine_docs_chain_kwargs={"prompt": prompt},
         )
         return qa_chain
 
@@ -92,10 +109,14 @@ class ChatbotWeb:
 
             utils.display_msg(user_query, "user")
 
-            with st.chat_message("assistant"):
+            with st.chat_message("assistant", avatar="assets/amit.png"):
                 st_cb = StreamHandler(st.empty())
                 result = qa_chain.invoke(
-                    {"question": user_query}, {"callbacks": [st_cb]}
+                    {
+                        "question": user_query,
+                        "chat_history": st.session_state.messages,
+                    },
+                    {"callbacks": [st_cb]},
                 )
                 response = result["answer"]
                 st.session_state.messages.append(
