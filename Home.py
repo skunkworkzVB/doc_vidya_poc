@@ -60,9 +60,7 @@ class ChatbotWeb:
     @st.cache_resource(show_spinner="Loading VectorDB", ttl=3600)
     def setup_vectordb(_self):
         # Scrape and load documents
-        embed = OpenAIEmbeddings(
-            openai_api_key=openai_api_key=os.getenv("OPENAI_API_KEY")
-        )
+        embed = OpenAIEmbeddings(openai_api_key=os.getenv("OPENAI_API_KEY"))
         vectordb = FAISS.load_local(
             "assets/awake-ventures",
             embed,
