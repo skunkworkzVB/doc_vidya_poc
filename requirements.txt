@@ -8,3 +8,4 @@ openai==1.35.15
 streamlit==1.36.0
 validators==0.33.0
 faiss-cpu
+python-dotenv
