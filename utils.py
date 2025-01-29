@@ -9,6 +9,10 @@ from langchain.embeddings import OpenAIEmbeddings
 
 logger = get_logger("Langchain-Chatbot")
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 context_prompt = """Awake VC/ Shoptype are creating a new model for social commerce that integrates technology and decentralized finance. This partnership aims to transform how affiliate marketing operates by leveraging the capabilities of the Awake Market Network, which allows users to earn commissions based on their influence across various platforms.
 
 ### Key Aspects
@@ -122,7 +126,7 @@ def configure_llm():
         model_name="gpt-4o-mini",
         temperature=0,
         streaming=True,
-        api_key="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",
+        api_key=os.getenv("OPENAI_API_KEY"),
     )
 
     return llm
