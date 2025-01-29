@@ -25,6 +25,10 @@ from langchain_community.vectorstores import FAISS
 
 import faiss
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 st.set_page_config(
     page_title="Chat with Awake Ventures", page_icon="./assets/awake-ventures.jpg"
 )
@@ -57,7 +61,7 @@ class ChatbotWeb:
     def setup_vectordb(_self):
         # Scrape and load documents
         embed = OpenAIEmbeddings(
-            openai_api_key="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"
+            openai_api_key=openai_api_key=os.getenv("OPENAI_API_KEY")
         )
         vectordb = FAISS.load_local(
             "assets/awake-ventures",
@@ -125,11 +129,11 @@ class ChatbotWeb:
                 utils.print_qa(ChatbotWeb, user_query, response)
 
                 # to show references
-                for idx, doc in enumerate(result["source_documents"], 1):
-                    url = os.path.basename(doc.metadata["source"])
-                    ref_title = f":blue[Reference {idx}: *{url}*]"
-                    with st.popover(ref_title):
-                        st.caption(doc.page_content)
+                # for idx, doc in enumerate(result["source_documents"], 1):
+                #     url = os.path.basename(doc.metadata["source"])
+                #     ref_title = f":blue[Reference {idx}: *{url}*]"
+                #     with st.popover(ref_title):
+                #         st.caption(doc.page_content)
 
 
 if __name__ == "__main__":
