@@ -11,7 +11,9 @@ logger = get_logger("Langchain-Chatbot")
 
 from dotenv import load_dotenv
 
-load_dotenv()
+# Use load_dotenv only if running locally (not on Streamlit Cloud)
+if not st.secrets.get("OPENAI_API_KEY"):
+    load_dotenv()
 
 context_prompt = """
 You are Jenny, a helpful assistant that can answer questions about the Docvidya website. Say 'I don't know' if you don't know the answer.
@@ -77,6 +79,8 @@ def choose_custom_openai_key():
         placeholder="sk-...",
         key="SELECTED_OPENAI_API_KEY",
     )
+    # Use st.secrets if available
+    openai_api_key = st.secrets.get("OPENAI_API_KEY") or openai_api_key
     if not openai_api_key:
         st.error("Please add your OpenAI API key to continue.")
         st.info(
@@ -109,11 +113,13 @@ def choose_custom_openai_key():
 
 
 def configure_llm():
+    # Use st.secrets for API key if available, else fallback to env
+    openai_api_key = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
     llm = ChatOpenAI(
         model_name="gpt-4o-mini",
         temperature=0,
         streaming=True,
-        api_key=os.getenv("OPENAI_API_KEY"),
+        api_key=openai_api_key,
     )
 
     return llm
@@ -126,8 +132,10 @@ def print_qa(cls, question, answer):
 
 @st.cache_resource
 def configure_embedding_model():
+    # Use st.secrets for API key if available, else fallback to env
+    openai_api_key = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
     embedding_model = OpenAIEmbeddings(
-        openai_api_key=os.getenv("OPENAI_API_KEY")
+        openai_api_key=openai_api_key
     )
     return embedding_model
 

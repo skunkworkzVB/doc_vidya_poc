@@ -27,7 +27,9 @@ import faiss
 
 from dotenv import load_dotenv
 
-load_dotenv()
+# Use load_dotenv only if running locally (not on Streamlit Cloud)
+if not st.secrets.get("OPENAI_API_KEY"):
+    load_dotenv()
 
 st.set_page_config(
     page_title="Chat with Docvidya"
@@ -60,7 +62,9 @@ class ChatbotWeb:
     @st.cache_resource(show_spinner="Loading VectorDB", ttl=3600)
     def setup_vectordb(_self):
         # Scrape and load documents
-        embed = OpenAIEmbeddings(openai_api_key=os.getenv("OPENAI_API_KEY"))
+        # Use st.secrets for API key if available, else fallback to env
+        openai_api_key = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
+        embed = OpenAIEmbeddings(openai_api_key=openai_api_key)
         vectordb = FAISS.load_local(
             "assets/faiss_index",
             embed,
