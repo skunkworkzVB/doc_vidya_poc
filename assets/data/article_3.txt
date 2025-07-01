@@ -1,0 +1,218 @@
+Smiles in Safe Hands: Evaluating Dental Treatments Under General Anesthesia for Special Needs and Healthy Patients
+
+
+
+Introduction
+
+Dental treatment under general anesthesia (GA) is a growing necessity, particularly for patients with dental anxiety or special needs. This retrospective clinical study analyzes restorative, endodontic treatments, and extractions performed under GA between 2015 and 2022. Additionally, it examines postoperative pain, bleeding, nausea, and vomiting, providing insights into the challenges and outcomes of such interventions.
+Objectives and Methodology
+
+The study aims to:
+•
+Compare the number of restorative, endodontic, and extraction procedures in healthy patients and those with special needs.
+•
+Evaluate postoperative complications like pain, bleeding, and nausea/vomiting (PONV).
+•
+Provide recommendations for improving treatment outcomes under GA.
+A total of 1165 patients underwent dental treatments under GA. After applying inclusion and exclusion criteria, the study focused on 184 patients aged 15 and above who received endodontic treatment. Patients were divided into two groups:
+•
+Healthy patients with dental anxiety (n=70)
+•
+Patients with special needs (n=114)
+Dental treatments were categorized as restorative, endodontic, or extractions.
+
+
+
+
+
+Key Findings of the Study
+
+Demographics
+•
+Special needs patients comprised 62% of the study cohort.
+•
+Common comorbidities included autism, cerebral palsy, down syndrome, and epilepsy.
+•
+Healthy patients were generally older and heavier than those with special needs.
+Treatment Distribution
+•
+Restorative treatments were more common in patients with special needs.
+•
+No significant differences in the number of endodontic treatments or extractions between groups.
+•
+Patients with special needs required more anterior and occlusal restorations, while healthy patients underwent more complex restorations (e.g., occluso-distal).
+Complications
+•
+Postoperative bleeding was significantly higher in patients with special needs (76.3%) compared to healthy patients (23.7%).
+•
+Pain scores were higher in healthy patients during the immediate postoperative period (NRS 0-hour scores).
+•
+PONV occurred in 32.1% of cases, with no significant difference between groups.
+Postoperative Pain and Analgesic Use
+•
+Healthy patients reported higher postoperative pain, likely due to better communication of discomfort.
+•
+Commonly used analgesics included diclofenac sodium and paracetamol.
+•
+Local anesthesia alongside GA improved pain management, particularly for extractions.
+
+
+
+
+
+
+
+Discussion
+
+Restorative and Endodontic Treatments
+The prevalence of restorative treatments in patients with special needs highlights oral hygiene challenges and dietary factors contributing to dental caries. Despite their complex needs, a conservative approach, favoring restorations over extractions, was observed in both groups. This aligns with the goal of preserving functional dentition.
+Postoperative Complications
+Bleeding was more frequent in special needs patients due to conditions like Down syndrome and the effects of antiepileptic medications on clotting. Pain management was crucial, with variations in perception influenced by communication barriers in special needs patients.
+PONV Management
+While PONV is common in GA, its incidence was consistent across procedures. Prophylactic antiemetics such as metoclopramide and ondansetron effectively reduced symptoms.
+
+
+
+
+Recommendations for Better Outcomes
+
+•
+Preoperative Planning: Thorough assessments can identify risks like bleeding tendencies, allowing proactive management.
+•
+Integrated Pain Management: Combining local anesthesia with GA ensures effective pain control during and after procedures.
+•
+Customized Treatment Plans: Tailored approaches, particularly for special needs patients, can improve long-term oral health outcomes.
+•
+Caregiver Education: Post-treatment guidance for caregivers can enhance recovery and promote better oral hygiene practices.
+
+
+
+
+Conclusion
+
+General anesthesia is a cornerstone for inclusive dental care, particularly for patients with special needs and those battling severe anxiety. This study highlights the challenges and triumphs of dental procedures performed under GA, emphasizing the importance of strategic interventions. By focusing on individualized care and leveraging innovative -techniques, we can ensure better outcomes for all patients.
+
+
+
+
+
+GGI-CO-A1-AQS-300023454-APPEMC-B25-0767
+For the use of a Registered Medical Practitioner, Hospital or Laboratory only.
+Reference: Uysal, B. C., Ozkan, H. D., & Kocaturk, O. (2024). Postoperative evaluation of special needs and healthy patients with endodontic treatment under general anesthesia: a retrospective research. BMC Oral Health, 24(1). https://doi.org/10.1186/s12903-024-04584-0
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+Dental treatment under general anesthesia (GA) is a growing necessity, particularly for patients with dental anxiety or special needs. This retrospective clinical study analyzes restorative, endodontic treatments, and extractions performed under GA between 2015 and 2022. Additionally, it examines postoperative pain, bleeding, nausea, and vomiting, providing insights into the challenges and outcomes of such interventions.
+Objectives and Methodology
+
+The study aims to:
+•
+Compare the number of restorative, endodontic, and extraction procedures in healthy patients and those with special needs.
+•
+Evaluate postoperative complications like pain, bleeding, and nausea/vomiting (PONV).
+•
+Provide recommendations for improving treatment outcomes under GA.
+A total of 1165 patients underwent dental treatments under GA. After applying inclusion and exclusion criteria, the study focused on 184 patients aged 15 and above who received endodontic treatment. Patients were divided into two groups:
+•
+Healthy patients with dental anxiety (n=70)
+•
+Patients with special needs (n=114)
+Dental treatments were categorized as restorative, endodontic, or extractions.
+
+
+
+
+
+Key Findings of the Study
+
+Demographics
+•
+Special needs patients comprised 62% of the study cohort.
+•
+Common comorbidities included autism, cerebral palsy, down syndrome, and epilepsy.
+•
+Healthy patients were generally older and heavier than those with special needs.
+Treatment Distribution
+•
+Restorative treatments were more common in patients with special needs.
+•
+No significant differences in the number of endodontic treatments or extractions between groups.
+•
+Patients with special needs required more anterior and occlusal restorations, while healthy patients underwent more complex restorations (e.g., occluso-distal).
+Complications
+•
+Postoperative bleeding was significantly higher in patients with special needs (76.3%) compared to healthy patients (23.7%).
+•
+Pain scores were higher in healthy patients during the immediate postoperative period (NRS 0-hour scores).
+•
+PONV occurred in 32.1% of cases, with no significant difference between groups.
+Postoperative Pain and Analgesic Use
+•
+Healthy patients reported higher postoperative pain, likely due to better communication of discomfort.
+•
+Commonly used analgesics included diclofenac sodium and paracetamol.
+•
+Local anesthesia alongside GA improved pain management, particularly for extractions.
+
+
+
+
+
+
+
+Discussion
+
+Restorative and Endodontic Treatments
+The prevalence of restorative treatments in patients with special needs highlights oral hygiene challenges and dietary factors contributing to dental caries. Despite their complex needs, a conservative approach, favoring restorations over extractions, was observed in both groups. This aligns with the goal of preserving functional dentition.
+Postoperative Complications
+Bleeding was more frequent in special needs patients due to conditions like Down syndrome and the effects of antiepileptic medications on clotting. Pain management was crucial, with variations in perception influenced by communication barriers in special needs patients.
+PONV Management
+While PONV is common in GA, its incidence was consistent across procedures. Prophylactic antiemetics such as metoclopramide and ondansetron effectively reduced symptoms.
+
+
+
+
+Recommendations for Better Outcomes
+
+•
+Preoperative Planning: Thorough assessments can identify risks like bleeding tendencies, allowing proactive management.
+•
+Integrated Pain Management: Combining local anesthesia with GA ensures effective pain control during and after procedures.
+•
+Customized Treatment Plans: Tailored approaches, particularly for special needs patients, can improve long-term oral health outcomes.
+•
+Caregiver Education: Post-treatment guidance for caregivers can enhance recovery and promote better oral hygiene practices.
+
+
+
+
+Conclusion
+
+General anesthesia is a cornerstone for inclusive dental care, particularly for patients with special needs and those battling severe anxiety. This study highlights the challenges and triumphs of dental procedures performed under GA, emphasizing the importance of strategic interventions. By focusing on individualized care and leveraging innovative -techniques, we can ensure better outcomes for all patients.
+
+
+
+
+
+GGI-CO-A1-AQS-300023454-APPEMC-B25-0767
+For the use of a Registered Medical Practitioner, Hospital or Laboratory only.
+Reference: Uysal, B. C., Ozkan, H. D., & Kocaturk, O. (2024). Postoperative evaluation of special needs and healthy patients with endodontic treatment under general anesthesia: a retrospective research. BMC Oral Health, 24(1). https://doi.org/10.1186/s12903-024-04584-0
+
+
+
+
+
+
+
+

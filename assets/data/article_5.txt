@@ -1,0 +1,84 @@
+Laser Your Pain Away: Exploring the Benefits of Low-Level Laser Therapy in Root Canal Treatment
+
+
+
+Endodontic flare-ups are common complications during or after root canal treatments, often resulting from over instrumentation. Over instrumentation refers to the excessive use of instruments that cause damage to the periapical tissues, leading to inflammation, pain, and swelling. Traditional treatments for flare-ups typically involve the use of analgesics and antibiotics, but these treatments can lead to adverse effects, such as allergic reactions, particularly to nonsteroidal anti-inflammatory drugs (NSAIDs).
+Low-Level Laser Therapy (LLLT), specifically using a 650 nm diode laser, has emerged as an alternative that can help reduce pain and inflammation post-treatment. The study aimed to evaluate the effectiveness of LLLT when administered as pre- or post-conditioning before or after over instrumentation in rat models, focusing on the expression of pain-related and anti-inflammatory biomarkers: substance P (a pro-inflammatory neuropeptide) and interleukin-10 (IL-10, an anti-inflammatory cytokine).
+
+
+
+
+
+
+Objectives and Methods
+
+This study explored how pre-conditioning (using LLLT before treatment) and post-conditioning (using LLLT after treatment) with a 650 nm diode laser could affect the expression of substance P and interleukin-10 (IL-10), two key molecules involved in pain and inflammation.
+•
+Substance P is a neuropeptide that plays a central role in pain transmission and inflammation. When tissues are injured, substance P is released, which can trigger a cascade of inflammatory responses, leading to swelling and pain.
+•
+IL-10, on the other hand, is an anti-inflammatory cytokine. Its presence helps regulate the immune response and reduce inflammation, aiding in pain relief and healing.
+The study involved 30 male rats, divided into six groups:
+•
+2 control groups (no laser treatment)
+•
+2 precondition groups (laser before over instrumentation)
+•
+2 postcondition groups (laser after over instrumentation)
+Each group was analysed 30 and 120 minutes after the treatment, and the researchers used immunohistochemical analysis to examine the expression of substance P and IL-10 in the tissues.
+
+
+
+
+
+
+
+
+
+
+Key Findings
+
+•
+Substance P Expression: The expression of substance P was significantly lower in the preconditioning groups (LLLT applied before overinstrumentation) compared to the control and postconditioning groups (Figure 1). This indicates that pre-conditioning with LLLT may help reduce pain by limiting the release of substance P, which is responsible for inflammation and pain sensation.
+•
+IL-10 Expression: In contrast, the expression of IL-10 was significantly higher in the preconditioning groups compared to both the control and postconditioning groups (Figure 1). Higher IL-10 levels are associated with anti-inflammatory effects, suggesting that pre-conditioning with LLLT not only reduces pain but also promotes healing by encouraging the release of this beneficial cytokine.
+
+
+
+
+
+
+Results
+
+The results of this study suggest that pre-conditioning with LLLT-applying the 650 nm diode laser before the procedure—was more effective at reducing pain and inflammation than applying it afterward. The pre-conditioning groups showed lower levels of substance P (the pain-causing neuropeptide) and higher levels of IL-10 (the anti-inflammatory mediator), which indicates better pain management and faster healing.
+So, while LLLT can be helpful in managing pain after endodontic treatments, applying it before the procedure may offer more significant benefits in terms of reducing pain and inflammation, helping patients recover faster.
+
+
+
+
+Future Directions
+
+The authors suggest that future studies should explore the clinical applications of LLLT in human patients, assessing not only pain relief but also its impact on tissue healing and recovery times. Additionally, research should investigate the optimal parameters for LLLT (e.g., wavelength, intensity, and duration) to achieve the best therapeutic outcomes in dental procedures.
+
+
+
+
+Conclusion
+
+
+Low-Level Laser Therapy (LLLT) with a 650 nm diode laser shows promising results in managing pain and inflammation after endodontic treatments. The study indicates that pre-conditioning with LLLT (using the laser before over instrumentation) is more effective at reducing pain and promoting healing compared to post-conditioning (using the laser after the procedure). This opens new possibilities for improving patient comfort and recovery in root canal treatments and other dental procedures.
+
+
+
+
+
+GGI-CO-A1-AQS-300023454-APPEMC-B25-0766
+For the use of a Registered Medical Practitioner, Hospital or Laboratory only.
+Reference: Kunarti, S., Juniarti, D. E., Sunur, Y. K., & Ariani, M. K. (2023). The different effects of low-level laser therapy before and after overinstrumentation on the expression of substance P and interleukin-10. The Saudi Dental Journal, 35(4), 317–321. https://doi.org/10.1016/j.sdentj.2023.03.010.
+
+
+
+
+
+
+
+

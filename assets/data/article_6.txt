@@ -1,0 +1,79 @@
+From Ache to Relief: Understanding Pain Levels Before, During, and After Root Canal Treatment
+
+
+
+Introduction
+
+Root canal treatment, though often feared, is less painful than commonly believed, with only 17% of patients reporting it as their most painful dental experience. Over 15 million procedures performed annually in the U.S. highlight its value in preserving teeth affected by pulpal or periradicular disease, which would otherwise require extraction. Despite its pain-relieving benefits, comprehensive evidence on pain prevalence and severity before, during, and after root canal treatment remains scarce and scattered across studies.
+
+
+
+
+
+Objectives and Methods
+
+This study aims to systematically review and analyze available data to assess pain prevalence and severity associated with root canal treatment.
+•
+Using a PICO framework (Patient, Intervention, Comparison, Outcome), the review questions were designed to analyze pain trends in adult patients undergoing nonsurgical RCT. Four databases—MEDLINE, Embase, Cochrane, and PsycINFO—were searched for studies published between 1966 and 2009.
+•
+Inclusion criteria required studies to provide data on pain prevalence and severity related to pretreatment, treatment, and posttreatment stages. Excluded were studies involving pediatric patients, traumatic RCT cases, and those lacking pain measurement outcomes.
+•
+Ultimately, 72 studies with a mean quality score of 23/27 on the Wong Scale–Revised were included.
+
+
+
+
+
+
+
+
+Results
+
+Pretreatment Pain Prevalence and Severity:
+•
+Pain prevalence was high before RCT, with a mean of 81% (SD = 28%) across 30 studies. Visual Analog Scale (VAS) studies showed a 100% prevalence, as even minimal discomfort registered a pain score above zero. Non-VAS studies reported a mean prevalence of 68% (SD = 28%).
+•
+Pretreatment pain severity was moderate, with a mean of 54% (SD = 24%) on a 100-point scale across 22 studies. These high levels were attributed to patient self-selection, as individuals often seek treatment due to pain.
+Treatment Pain Prevalence and Severity:
+•
+Data on treatment pain were limited. Three VAS studies indicated a 100% prevalence of treatment pain, although severity was low (4%-8%). Non-VAS studies reported treatment pain prevalence ranging from 11% to 22%.
+•
+Variations in anesthetic efficacy contributed to differences in treatment pain reports. Supplemental anesthesia was often necessary, used in approximately 60% of cases to ensure adequate pain control.
+Posttreatment Pain Prevalence and Severity:
+•
+Posttreatment pain prevalence dropped substantially over time. At 24 hours, it was 40% (SD = 24%) across 11 studies. By seven days, prevalence decreased to 11% (SD = 14%) based on 12 studies, with many reporting prevalence below 10% at this stage.
+•
+Pain severity followed a similar trend. At 24 hours, the mean severity was 24% (SD = 12%), decreasing to 5% (SD = 5%) by seven days. Only a minority of studies reported mild pain beyond one week.
+Anesthetic Efficacy:
+•
+Effective anesthesia was critical in managing treatment pain. Supplemental injections were frequently needed, especially in cases of irreversible pulpitis or spontaneous pretreatment pain. Proper anesthetic techniques and patient communication were highlighted as key to enhancing patient comfort.
+
+
+
+Discussion
+
+RCT significantly reduces both the prevalence and severity of pain. Pretreatment pain, while common, diminishes steadily within days after treatment. By seven days posttreatment, most patients experience minimal or no pain. Variability in pain reports may arise from differences in patient populations, diagnostic criteria, and pain measurement methods.
+The findings emphasize the importance of managing patient expectations and addressing fear associated with RCT. Dentists can use these data to reassure patients and guide anesthesia and pain management decisions effectively. The need for supplemental anesthesia underscores the challenges in achieving sufficient pain control during treatment, particularly in emergency cases.
+
+
+
+
+Conclusion
+
+RCT significantly alleviates pain associated with endodontic conditions. Pretreatment pain prevalence and severity are high, but both drop considerably within one day posttreatment and reach minimal levels by seven days. Supplemental anesthesia is often necessary to manage treatment pain. These findings advocate for evidence-based pain management practices to improve patient experiences and outcomes in endodontics.
+
+
+
+
+
+GGI-CO-A1-AQS-300023454-APPEMC-B25-0766
+For the use of a Registered Medical Practitioner, Hospital or Laboratory only.
+Reference: Pak, J. G., & White, S. N. (2011). Pain Prevalence and Severity before, during, and after Root Canal Treatment: A Systematic Review. Journal of Endodontics, 37(4), 429–438. https://doi.org/10.1016/j.joen.2010.12.016
+
+
+
+
+
+
+
+

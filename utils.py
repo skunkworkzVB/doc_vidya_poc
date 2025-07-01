@@ -13,21 +13,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-context_prompt = """Awake VC/ Shoptype are creating a new model for social commerce that integrates technology and decentralized finance. This partnership aims to transform how affiliate marketing operates by leveraging the capabilities of the Awake Market Network, which allows users to earn commissions based on their influence across various platforms.
-
-### Key Aspects
-
-- **Decentralized Affiliate Marketing**: Shoptype enables a more comprehensive affiliate marketing approach, allowing participants to earn not just from last-click sales but from their influence throughout the customer journey[7].
-
-- **Integration of Technologies**: The collaboration utilizes the MainCross cloud platform, which supports seamless integration of content, community engagement, workflows, and commerce. This enables businesses to set up their own market networks with minimal technical barriers[3][7].
-
-- **Empowering Creators and Brands**: By utilizing Shoptype's platform, brands can effectively engage with creators and cosellers who authentically promote products. This model encourages genuine conversations and community-driven marketing strategies, moving away from traditional advertising methods[5][6].
-
-- **Real-Time Attribution and Payments**: The Awake Market Network facilitates real-time tracking of sales attribution, ensuring that all contributors to a sale are compensated fairly. This shifts the financial dynamics of marketing by only paying for actual sales generated through influencer efforts[3][4].
-
-Overall, Awake VC's partnership with Shoptype is focused on creating a more equitable and efficient framework for digital commerce that benefits creators, brands, and consumers alike.
-
-Answer like Amit Rathore, the founder of Shoptype and Awake VC.
+context_prompt = """
+You are Jenny, a helpful assistant that can answer questions about the Docvidya website. Say 'I don't know' if you don't know the answer.
 """
 
 
@@ -51,12 +38,12 @@ def enable_chat_history(func):
         st.session_state["messages"] = [
             {
                 "role": "assistant",
-                "content": "Hey iRealization (Amit) here, whats up?",
+                "content": "Hey Jenny here, whats up?",
             },
         ]
     for msg in st.session_state["messages"]:
         if msg["role"] == "assistant":
-            st.chat_message(msg["role"], avatar="assets/amit.png").write(msg["content"])
+            st.chat_message(msg["role"]).write(msg["content"])
         else:
             st.chat_message(msg["role"]).write(msg["content"])
 
@@ -78,7 +65,7 @@ def display_msg(msg, author):
 
     st.session_state.messages.append({"role": author, "content": msg})
     if author == "assistant":
-        st.chat_message(author, avatar="assets/amit.png").write(msg)
+        st.chat_message(author).write(msg)
     else:
         st.chat_message(author).write(msg)
 
@@ -140,7 +127,7 @@ def print_qa(cls, question, answer):
 @st.cache_resource
 def configure_embedding_model():
     embedding_model = OpenAIEmbeddings(
-        openai_api_key="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"
+        openai_api_key=os.getenv("OPENAI_API_KEY")
     )
     return embedding_model
 

@@ -30,10 +30,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(
-    page_title="Chat with Awake Ventures", page_icon="./assets/awake-ventures.jpg"
+    page_title="Chat with Docvidya"
 )
-st.header("iRealization")
-st.text("Creator, Entrepreneur, Investor, Awake.")
+st.header("Docvidya")
+st.text("Demo by Valuebound")
 
 
 class ChatbotWeb:
@@ -62,7 +62,7 @@ class ChatbotWeb:
         # Scrape and load documents
         embed = OpenAIEmbeddings(openai_api_key=os.getenv("OPENAI_API_KEY"))
         vectordb = FAISS.load_local(
-            "assets/awake-ventures",
+            "assets/faiss_index",
             embed,
             allow_dangerous_deserialization=True,
         )
@@ -111,7 +111,7 @@ class ChatbotWeb:
 
             utils.display_msg(user_query, "user")
 
-            with st.chat_message("assistant", avatar="assets/amit.png"):
+            with st.chat_message("assistant"):
                 st_cb = StreamHandler(st.empty())
                 result = qa_chain.invoke(
                     {
@@ -127,11 +127,11 @@ class ChatbotWeb:
                 utils.print_qa(ChatbotWeb, user_query, response)
 
                 # to show references
-                # for idx, doc in enumerate(result["source_documents"], 1):
-                #     url = os.path.basename(doc.metadata["source"])
-                #     ref_title = f":blue[Reference {idx}: *{url}*]"
-                #     with st.popover(ref_title):
-                #         st.caption(doc.page_content)
+                for idx, doc in enumerate(result["source_documents"], 1):
+                    url = doc.metadata["article_url"]
+                    ref_title = f":blue[Reference {idx}: *{url}*]"
+                    with st.popover(ref_title):
+                        st.caption(doc.page_content)
 
 
 if __name__ == "__main__":
