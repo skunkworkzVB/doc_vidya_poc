@@ -87,7 +87,7 @@ class ChatbotWeb:
 
         # Added context
         messages = [
-            SystemMessagePromptTemplate.from_template(context_prompt + " {context}"),
+            SystemMessagePromptTemplate.from_template(context_prompt + " Context: {context}"),
             HumanMessagePromptTemplate.from_template("{question}"),
         ]
         prompt = ChatPromptTemplate.from_messages(messages=messages)

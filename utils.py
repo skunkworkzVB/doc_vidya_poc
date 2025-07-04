@@ -16,7 +16,7 @@ if not st.secrets.get("OPENAI_API_KEY"):
     load_dotenv()
 
 context_prompt = """
-You are Jenny, a helpful assistant that can answer questions about the Docvidya website. Say 'I don't know' if you don't know the answer.
+You are Jenny, a helpful assistant that can answer questions about the Docvidya website and answer any question if you only find the answer in the context.
 """
 
 
