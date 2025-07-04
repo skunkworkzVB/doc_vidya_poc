@@ -9,22 +9,23 @@ import pandas as pd
 
 load_dotenv()
 
-csv = "Data-Doc Vidya - Sheet1.csv"
-
-df = pd.read_csv(csv)
-
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=500)
 docs, metadatas = [], []
-for index, row in df.iterrows():
-    with open(row['text_path'], "r", encoding="utf-8", errors="ignore") as f:
-        text = f.read()
-    splits = text_splitter.split_text(text)
-    docs.extend(splits)
-    metadatas.extend([{"article_url": row['url']}] * len(splits))
-    print(f"Split {row['url']} into {len(splits)} chunks")
+
+csv = ["Data-Doc Vidya - Sheet1.csv", "Data-Doc Vidya - Sheet2.csv"]
+
+for csv_file in csv:
+    df = pd.read_csv(csv_file)
+
+    for index, row in df.iterrows():
+        with open(row['text_path'], "r", encoding="utf-8", errors="ignore") as f:
+            text = f.read()
+        splits = text_splitter.split_text(text)
+        docs.extend(splits)
+        metadatas.extend([{"article_url": row['url']}] * len(splits))
+        print(f"Split {row['url']} into {len(splits)} chunks")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
 
 store_new = FAISS.from_texts(docs, OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY), metadatas=metadatas)
 

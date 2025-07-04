@@ -7,3 +7,5 @@ doc_venv/
 .streamlit\secrets.toml
 doc_vidya_venv/
 assets/data/
+*.csv
+*.txt
